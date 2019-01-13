@@ -1,4 +1,5 @@
 (import :gerbil/gambit/ports)
+(export cat)
 
 (define (cat object . rest)
   (let* ((str-rest (part string? rest))
